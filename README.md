@@ -9,6 +9,8 @@ I didn't want to overcomplicate it by allowing it to be connected to a DB, plus 
 It uses a txt file to emulate a database. 
   **This is currently not working...* 
   **So to test it out. Use test, test to login and play.**
+  
+  ** Also acts weird on monitors higher than 60hz, this is a bug and will be fixed. ** 
 
 ## Skills Learned/leveraged
 * HTML
