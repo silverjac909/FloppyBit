@@ -1,0 +1,41 @@
+<!-- Jacob Csencsics 
+COSC 365 - Final -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FloppyBit</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../css/game.css">
+    <link rel="shortcut icon" href="../images/floppy.png" type="image/x-icon">
+</head>
+<body>
+    <canvas id = "mycanvas" width = "320" height="480"></canvas>
+    <script src="../scripts/floppybit.js"></script>
+    <div class = "wrapper">
+        <button onclick="music()">Music?</button>
+        <span id = "rangeValue">0</span>
+        <input type="range" id="rangeSlider" value = "0" 
+        min = "0" max = "1" step = "0.01"
+        onmousemove="rangeSlider()"
+        onchange="rangeSlider()">
+    </div>
+    <footer class="footer">
+        <div class="footer left">
+            Jacob Csencsics
+        </div>
+        <div class="footer right">
+            <nav>
+                <ul>
+                    <li>COSC 365</li>
+                    |
+                    <li>Final Project</li>
+                    |
+                    <li>Spring 2020</li>
+                </ul>
+            </nav>
+    </div>
+    </footer>
+</body>
+</html>

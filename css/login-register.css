@@ -1,0 +1,81 @@
+
+/* Jacob Csencsics
+COSC 365 - Final 
+Style for the login/register pages */
+.login-box{
+    background: white;
+    display: flex;
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+    text-align: center;
+    height: 50%;
+    left: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box div{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+.login-box p{
+    text-transform: uppercase;
+    font-family: OpenSans;
+    font-size: 32pt;
+}
+
+.login-box form{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"], input[type="email"],
+input[type="password"], input[type="Re-password"] {
+    margin-bottom: 20px;
+    padding-bottom: 4px;
+    width: 200%;
+    height: 32px;
+    border: none; 
+    outline: none;
+    border-bottom: 1px solid blue;
+    font-weight: 300;
+    font-size: 18px;
+    transition: 0.2s ease;
+}
+
+input[type="password"]{
+    -webkit-text-security: disc;
+}
+
+.login-box ul {
+    margin: 0; 
+    padding: 0; 
+    list-style-type: none;
+}
+
+.button{
+    background-color: rgb(49, 155, 255);
+    text-transform: uppercase;
+    border: none;
+    padding: 15px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    border-radius: 4px;
+    width: 100%;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: darkblue;
+    opacity: 1;
+    transition: 0.2s ease;
+}

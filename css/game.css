@@ -1,0 +1,17 @@
+/* Jacob Csencsics
+COSC 365 - Final
+Style for Game Page */
+body{
+    background-color: #f08080;
+    -webkit-user-select: none;
+}
+canvas{
+    border: 2px solid black;
+    display: block;
+    margin: 0 auto;
+}
+
+.wrapper{
+    text-align: center;
+    -webkit-user-select: none;
+}
