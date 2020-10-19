@@ -387,7 +387,7 @@ function loop(){
     update();
     draw(); 
     frames++;
-    requestAnimationFrame(loop);
+    window.requestAnimationFrame(loop);
 }
 
 loop();
