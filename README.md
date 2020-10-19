@@ -7,10 +7,10 @@ This was done for a final project in my web development class.
 
 I didn't want to overcomplicate it by allowing it to be connected to a DB, plus then every person who uses it would need to set up a DB connection. 
 It uses a txt file to emulate a database. 
-  **This is currently not working...* 
+  **This is currently not working...**
   **So to test it out. Use test, test to login and play.**
   
-  ** Also acts weird on monitors higher than 60hz, this is a bug and will be fixed. ** 
+  **Also acts weird on monitors higher than 60hz, this is a bug and will be fixed.** 
 
 ## Skills Learned/leveraged
 * HTML
